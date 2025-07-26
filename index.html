@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Typing Speed Test</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Typing Speed Test</h1>
+    <div class="card">
+      <p id="quote"></p>
+      <textarea id="input" placeholder="Start typing here..."></textarea>
+      <div class="stats">
+        <div><strong>⏱️ Time</strong><br><span id="timer">0</span> s</div>
+        <div><strong>⚡ WPM</strong><br><span id="wpm">0</span></div>
+        <div><strong>🎯 Accuracy</strong><br><span id="accuracy">0</span>%</div>
+      </div>
+      <button id="restart">🔁 Restart</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
